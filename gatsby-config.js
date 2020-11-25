@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Alanna Craft's Blog`,
+        short_name: `Alanna Craft`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
