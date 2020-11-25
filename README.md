@@ -8,3 +8,5 @@
 
 > Use dev branch
 > Set up docker container using Visual Studio Remote
+
+Have fun!
