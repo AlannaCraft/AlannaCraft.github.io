@@ -18,7 +18,7 @@ module.exports = {
         apiURL: process.env.API_URL || "http://localhost:1337",
         contentTypes: ["article", "category", "writer"],
         singleTypes: [`homepage`, `global`],
-        queryLimit: 1000,
+        queryLimit: 10000,
       },
     },
     "gatsby-transformer-sharp",
