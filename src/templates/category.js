@@ -6,7 +6,9 @@ import Layout from "../components/layout";
 export const query = graphql`
   query Category($slug: String!) {
     articles: allStrapiArticle(
-      filter: { status: { eq: "published" }, category: { slug: { eq: $slug } } }
+      filter: { status: { eq: "published" }, 
+      category: { slug: { eq: $slug } } }, 
+      sort: {fields: publishedAt, order: DESC}
     ) {
       edges {
         node {
